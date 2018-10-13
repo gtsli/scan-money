@@ -10,6 +10,6 @@ class MainActivity : FragmentActivity() {
         setContentView(R.layout.activity_main)
 
         supportFragmentManager.beginTransaction()
-            .replace(R.id.frameLayout, ARFragment.newInstance()).commit()
+            .replace(R.id.frameLayout, MainFragment.newInstance()).commit()
     }
 }
